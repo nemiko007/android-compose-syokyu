@@ -1,6 +1,6 @@
 {
     "name": "Station 06",
-    "id": 116,
+    "id": 911,
     "prepare": [
         {
             "command": "yarn run clean-test-result"
