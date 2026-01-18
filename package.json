@@ -15,6 +15,7 @@
     "scripts": {
         "login:techtrain": "techtrain-railway login",
         "hook:update": "simple-git-hooks",
+        "hook:pre-commit": "techtrain-railway hook:pre-commit",
         "postinstall": "yarn hook:update && yarn login:techtrain",
         "clean-test-result": "node .techtrain/utils/clean-test-result.js",
         "run-unit-test": "node .techtrain/utils/run-unit-test.js"
